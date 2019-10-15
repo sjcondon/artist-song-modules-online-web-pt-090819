@@ -2,7 +2,7 @@ require 'pry'
 require_relative '../lib/memorable'
 
 class Song
-  
+  extend memorable
   attr_accessor :name
   attr_reader :artist
 
