@@ -1,5 +1,6 @@
 require 'pry'
-important! Remember to add require_relative '../lib/memorable
+require_relative '../lib/memorable'
+
 class Artist
   attr_accessor :name
   attr_reader :songs
